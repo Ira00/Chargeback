@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.typekit.net/ryl5lsa.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+  <link rel="stylesheet" href="css/account.css">
+  <title>Головна</title>
+</head>
+<body class="body">
+  <header>
+    
+    <div class="header">
+      <div class="header_container">
+        <div class="logo">        
+          <div class="text_logo_ChargeBack"> <span class="letter_C">C</span>harge<span class="letter_C">B</span>ack</div>
+        </div>
+        <div class="header_menu menu">
+          <div class="menu_icon">
+            <span></span>
+          </div>
+          <nav class="menu_body">
+            <ul class="menu_list">
+              <li><a href="index.html" class="menu_link">Головна</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="about_user">
+    <div class="container">
+      <h1>Особистий кабінет</h1>
+      <div class="wrapper">
+        <div class="wrapper_user">
+          
+          <form action="">
+            <label for="">Прізвище<input type="text" value="Івахненко"></label>
+            <label for="">Ім'я<input type="text" value="Ірина"></label>
+            <label for="">По-батькові<input type="text" value="Ігорівна"></label>
+            <label for="">Пошта<input type="email" value="user@emample.com"></label>
+            <label for="">Телефон<input type="tel" value="050-55-55-555"></label>
+          </form>          
+        </div>   
+        <div class="wrapper_application">
+          <form action="">
+            <label>Тип операції
+              <select class="select-css">
+                <option>Не виконували транзакцію</option>
+                <option>Не отримали послуг, за які заплатили</option>
+                <option>Отримали товар з дефектами, або не той, що замовляли</option>
+                <option>Стягують платіж після відміни</option>
+                <option>Двічі заплатили за одну й ту саму річ</option>
+                <option>Заплатили помилкову кількість грошей</option>
+                <option>Заплатили у невказаній валюті</option>
+                <option>Не отримали грошей після повернення товару</option>
+              </select>
+            </label>
+            <label>Опис проблеми
+              <textarea id="description" required></textarea>
+            </label>
+            <label>Надайте документи, що підтверджують Ваш платіж та
+              <br>фото-звіт не виконаних домовленостей
+            </label>
+            <div class="input__wrapper">
+              <input name="file" type="file" name="file" id="input__file" class="input input__file" multiple>
+              <label for="input__file" class="input__file-button">
+                 <span class="input__file-icon-wrapper"><img class="input__file-icon" src="img/add.svg" alt="Выбрать файл" width="25"></span>
+                 <span class="input__file-button-text">Виберіть файли</span>
+              </label>
+           </div>
+          </form> 
+        </div>   
+      </div>   
+      <a href="#" class="cta">
+        Подати заявку
+      </a>   
+    </div>
+      
+  </div>
+  <footer>
+    <div class="container">
+      <div class="wrapper_footer">
+        <div class="logo">        
+          <div class="text_logo_ChargeBack"> <span class="letter_C">C</span>harge<span class="letter_C">B</span>ack</div>
+        </div>
+  
+        <div class="menu_footer">
+          <ul class='menu_list_footer'>
+            <li><a href="index.html" class="menu_link">Головна</a></li>
+            
+          </ul>
+        </div>
+        <div class="blog">
+                  
+          <div class="link_box" id="services">
+            <a href="#" class="facebook"><img src="img/Facebook.svg" alt=""></a>
+            <a href="#" class="instagram"><img src="img/Instagram.svg" alt=""></a>
+            <a href="#" class="telegram"><img src="img/Telegram.svg" alt=""></a>
+          </div>
+        </div>
+        <div class="line"></div>
+        <div class="footer_info">
+          <p>Виникли проблеми?</p>
+          <p class="tel">+38 (055) 555-55-55</p>
+          <p>hi@sitename.ua</p>
+        </div>
+      </div>
+    </div>    
+  </footer>
+  <script src="user.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
